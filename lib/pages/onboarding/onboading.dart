@@ -5,6 +5,15 @@ class OnboadingScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: const [
+          Center(
+            child: Text('Onboarding Screen', style: TextStyle(fontSize: 24)),
+          ),
+        ],
+      ),
+    );
   }
 }
