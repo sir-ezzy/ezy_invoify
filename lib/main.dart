@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Ezy Invoify',
-      debugShowCheckedModeBanner: false, 
+      debugShowCheckedModeBanner: false,
       home: const Splashscreen(),
     );
   }

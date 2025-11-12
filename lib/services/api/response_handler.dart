@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'package:ezy_invoify/services/api/constants.dart';
 import 'package:ezy_invoify/services/api/failure.dart';
-import 'package:ezy_invoify/services/localStorage/local_storage.dart';
+import 'package:ezy_invoify/services/localstorage/local_storage.dart';
 import 'package:ezy_invoify/widgets/unauth_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;

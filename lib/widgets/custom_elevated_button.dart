@@ -1,4 +1,5 @@
 import 'package:ezy_invoify/utils/size_extension.dart';
+import 'package:ezy_invoify/widgets/loading_widget.dart';
 import 'package:flutter/material.dart';
 import '../res/colors.dart';
 import '../utils/app_state.dart';
@@ -132,7 +133,7 @@ class PlatButtonBorder extends StatelessWidget {
                     children: [
                       Text(
                         title,
-                        style: AppTextTheme.h3(context).copyWith(
+                        style: AppTextTheme.h3.copyWith(
                           fontSize: textSize.sp,
                           fontWeight: FontWeight.w500,
                           color: isEnabled

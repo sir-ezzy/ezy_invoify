@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'dart:io';
 import 'package:ezy_invoify/services/api/failure.dart';
 import 'package:ezy_invoify/services/api/response_handler.dart';
-import 'package:ezy_invoify/services/localStorage/local_storage.dart';
+import 'package:ezy_invoify/services/localstorage/local_storage.dart';
 import 'package:http/http.dart' as http;
 import 'package:logger/logger.dart';
 
