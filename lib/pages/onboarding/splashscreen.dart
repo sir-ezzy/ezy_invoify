@@ -26,15 +26,15 @@ class Splashscreen extends StatelessWidget {
     );
   }
 
-  // @override
-  // void initState() {
-  //   super.initState();
-  //   Future.delayed(const Duration(seconds: 3), () {
-  //     if (LocalStorage.isFirstTime() == true) {
-  //       Get.offNamed(AppRoutes.onboardingPage);
-  //     } else {
-  //       Get.offNamed(AppRoutes.getStartedPage);
-  //     }
-  //   });
-  // }
+  @override
+  void initState() {
+    super.initState();
+    Future.delayed(const Duration(seconds: 3), () {
+      if (LocalStorage.isFirstTime() == true) {
+        Get.offNamed(AppRoutes.onboardingPage);
+      } else {
+        Get.offNamed(AppRoutes.getStartedPage);
+      }
+    });
+  }
 }
